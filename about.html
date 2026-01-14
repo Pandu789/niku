@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tentang Kami - NiKU Inovasi | Mitra Transformasi Digital</title>
+    <meta name="description" content="Pelajari sejarah dan visi NiKU Inovasi. Kami adalah tim developer ahli di Malang yang fokus pada transformasi digital, pembuatan website, dan aplikasi mobile.">
+    <meta name="keywords" content="Tentang NiKU Inovasi, Profil Perusahaan IT Malang, Tim Developer, Visi Misi NiKU, Web Developer Expert">
+    <meta name="author" content="NiKU Inovasi Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.niku.co.id/about.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.niku.co.id/about.html">
+    <meta property="og:title" content="Tentang Kami - NiKU Inovasi">
+    <meta property="og:description" content="Mengenal lebih dekat tim dan visi NiKU Inovasi dalam membangun masa depan digital yang lebih baik.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=630&fit=crop">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tentang Kami - NiKU Inovasi">
+    <meta name="twitter:description" content="Profil lengkap NiKU Inovasi, mitra transformasi digital Anda.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=630&fit=crop">
+
+    <link rel="icon" type="image/png" href="asset/NiKU.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="asset/NiKU.png" sizes="16x16">
+    <meta name="theme-color" content="#ff5a5f">
+    <link rel="apple-touch-icon" href="asset/NiKU.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "mainEntity": {
+        "@type": "LocalBusiness",
+        "name": "NiKU Inovasi",
+        "description": "Perusahaan teknologi yang berfokus pada transformasi digital, menyediakan layanan web development, aplikasi mobile, dan konsultasi IT.",
+        "image": "https://www.niku.co.id/asset/NiKU.png",
+        "foundingDate": "2019",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Tlogomas No. 1, Lowokwaru",
+            "addressLocality": "Kota Malang",
+            "addressRegion": "Jawa Timur",
+            "postalCode": "65144",
+            "addressCountry": "ID"
+        },
+        "founders": [
+          { "@type": "Person", "name": "Noer Prajitno" },
+          { "@type": "Person", "name": "Daniel Ismanto" }
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        /* --- RESET & GLOBAL STYLES --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; color: #333; line-height: 1.6; background-color: #fff; overflow-x: hidden; }
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+
+        /* --- VARIABLES --- */
+        :root {
+            --primary-color: #ff5a5f;
+            --primary-dark: #e04e53;
+            --text-dark: #1f1f1f;
+            --text-gray: #666;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --shadow-soft: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; position: relative; }
+
+        /* --- BUTTONS --- */
+        .btn { display: inline-block; padding: 14px 35px; border-radius: 50px; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: 2px solid transparent; }
+        .btn-primary { background-color: var(--primary-color); color: white; box-shadow: 0 4px 15px rgba(255, 90, 95, 0.3); }
+        .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-3px); box-shadow: 0 8px 20px rgba(255, 90, 95, 0.4); }
+        .btn-outline { background-color: transparent; border-color: var(--primary-color); color: var(--primary-color); }
+        .btn-outline:hover { background-color: var(--primary-color); color: white; }
+
+        /* --- TYPOGRAPHY --- */
+        .section-header { text-align: center; margin-bottom: 70px; }
+        .label-badge { display: inline-block; background-color: #ffeaea; color: var(--primary-color); padding: 8px 20px; border-radius: 30px; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px; letter-spacing: 1px; text-transform: uppercase; }
+        h2.section-title { font-size: 2.5rem; color: var(--text-dark); margin-bottom: 15px; font-weight: 700; }
+        p.section-subtitle { color: var(--text-gray); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+        /* --- HEADER NAVBAR STYLES (DESKTOP FIXED) --- */
+        header { padding: 15px 0; background: var(--bg-white); position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; z-index: 1002; }
+        .logo img { height: 50px; width: auto; max-width: 150px; }
+        .nav-links { display: flex; gap: 30px; align-items: center; margin: 0; padding: 0; }
+        .nav-links li a:not(.btn) { font-size: 0.95rem; font-weight: 500; color: var(--text-dark); transition: 0.3s; position: relative; text-decoration: none; }
+        .nav-links li a:not(.btn):hover, .nav-links li a:not(.btn).active { color: var(--primary-color); }
+        .nav-links li a:not(.btn)::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -5px; left: 0; background-color: var(--primary-color); transition: 0.3s; }
+        .nav-links li a:not(.btn):hover::after, .nav-links li a:not(.btn).active::after { width: 100%; }
+        .nav-links .btn { margin-left: 10px; padding: 10px 25px; display: inline-block; }
+        .hamburger { display: none; cursor: pointer; font-size: 1.5rem; color: var(--text-dark); z-index: 1002; }
+
+        /* --- HERO OVERLAPPING --- */
+        .about-hero-innovative { padding: 120px 0 150px; background-color: var(--bg-white); position: relative; }
+        .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; align-items: center; position: relative; }
+        .hero-image-bg { position: relative; z-index: 1; }
+        .hero-image-bg img { border-radius: 30px; box-shadow: 0 30px 60px rgba(0,0,0,0.1); width: 100%; height: 600px; object-fit: cover; object-position: center; }
+        .hero-image-bg::before { content: ''; position: absolute; bottom: -40px; left: -40px; width: 200px; height: 200px; background-image: radial-gradient(var(--primary-color) 2px, transparent 2px); background-size: 20px 20px; z-index: -1; opacity: 0.3; }
+        .hero-text-floating { background: var(--bg-white); padding: 60px; border-radius: 30px; box-shadow: var(--shadow-soft); position: relative; z-index: 2; margin-left: -100px; }
+        .hero-text-floating h1 { font-size: 3.5rem; line-height: 1.2; margin-bottom: 25px; color: var(--text-dark); }
+        .hero-text-floating p { font-size: 1.1rem; color: var(--text-gray); margin-bottom: 40px; }
+
+        /* --- TIMELINE CLEAN --- */
+        .timeline-section-clean { padding: 120px 0; background-color: var(--bg-light); position: relative; }
+        .timeline-clean { position: relative; max-width: 1000px; margin: 0 auto; }
+        .timeline-clean::before { content: ''; position: absolute; width: 2px; background-color: #e0e0e0; top: 0; bottom: 0; left: 50%; margin-left: -1px; }
+        .timeline-row { display: flex; justify-content: space-between; margin-bottom: 60px; position: relative; }
+        .timeline-row:nth-child(even) { flex-direction: row-reverse; }
+        .timeline-content { width: 45%; background: var(--bg-white); padding: 40px; border-radius: 20px; box-shadow: var(--shadow-soft); position: relative; transition: transform 0.3s ease; }
+        .timeline-content:hover { transform: translateY(-7px); }
+        .timeline-dot { position: absolute; top: 30px; left: 50%; transform: translateX(-50%); width: 24px; height: 24px; background: var(--bg-white); border: 4px solid var(--primary-color); border-radius: 50%; z-index: 2; box-shadow: 0 0 0 5px rgba(255, 90, 95, 0.2); }
+        .timeline-content::after { content: ''; position: absolute; top: 40px; width: 5%; height: 2px; background: var(--primary-color); }
+        .timeline-row:nth-child(odd) .timeline-content::after { right: -5%; }
+        .timeline-row:nth-child(even) .timeline-content::after { left: -5%; }
+        .year-badge { display: inline-block; font-weight: 700; font-size: 1.5rem; color: var(--primary-color); margin-bottom: 15px; }
+        .timeline-content h3 { font-size: 1.5rem; margin-bottom: 15px; color: var(--text-dark); }
+        .timeline-content p { color: var(--text-gray); }
+
+        /* --- TEAM MINIMAL --- */
+        .team-section-minimal { padding: 120px 0; background-color: var(--bg-white); }
+        .team-grid-minimal { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; justify-content: center; }
+        .team-card-minimal { background: var(--bg-white); border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-soft); text-align: center; transition: all 0.4s ease; border-bottom: 3px solid transparent; }
+        .team-card-minimal:hover { transform: translateY(-10px); border-bottom-color: var(--primary-color); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+        .team-photo-wrapper { height: 350px; overflow: hidden; position: relative; }
+        .team-photo-wrapper img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%); transition: 0.5s ease; }
+        .team-card-minimal:hover .team-photo-wrapper img { filter: grayscale(0%); transform: scale(1.05); }
+        .team-info-minimal { padding: 30px; }
+        .team-role { display: block; color: var(--primary-color); font-weight: 600; font-size: 0.9rem; margin-bottom: 10px; letter-spacing: 1px; }
+        .team-info-minimal h3 { font-size: 1.6rem; margin-bottom: 15px; color: var(--text-dark); }
+        .team-info-minimal p { color: var(--text-gray); font-size: 0.95rem; line-height: 1.6; }
+
+        /* --- FOOTER STYLES --- */
+        footer { background-color: #121212; color: #b0b0b0; padding-top: 80px; padding-bottom: 30px; font-size: 0.95rem; }
+        .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.5fr; gap: 40px; margin-bottom: 60px; align-items: start; }
+        .footer-col h4 { color: white; font-size: 1.1rem; margin-bottom: 25px; font-weight: 700; position: relative; display: inline-block; }
+        .footer-col h4::after { content: ''; position: absolute; left: 0; bottom: -10px; height: 3px; width: 40px; background-color: var(--primary-color); border-radius: 2px; }
+        .footer-col.brand-col h4::after { display: none; }
+        .footer-col p { line-height: 1.8; margin-bottom: 20px; font-size: 0.9rem; }
+        .footer-links { list-style: none; padding: 0; }
+        .footer-links li { margin-bottom: 12px; }
+        .footer-links a { color: #b0b0b0; text-decoration: none; transition: 0.3s; display: inline-block; }
+        .footer-links a:hover { color: var(--primary-color); transform: translateX(5px); }
+        .contact-info { list-style: none; padding: 0; }
+        .contact-info li { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; color: #b0b0b0; line-height: 1.6; }
+        .contact-info i { color: var(--primary-color); font-size: 1.1rem; margin-top: 4px; min-width: 20px; }
+        .footer-bottom { border-top: 1px solid #2a2a2a; padding-top: 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+        .footer-socials { display: flex; gap: 12px; }
+        .footer-socials a { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #2a2a2a; color: white; border-radius: 50%; transition: all 0.3s ease; text-decoration: none; font-size: 1rem; }
+        .footer-socials a:hover { background: var(--primary-color); transform: translateY(-3px); box-shadow: 0 5px 15px rgba(255, 90, 95, 0.4); }
+
+        /* ========================================= */
+        /* === MEDIA QUERIES (PERBAIKAN MOBILE) === */
+        /* ========================================= */
+        
+        @media (max-width: 968px) {
+            /* Hero Tablet/Mobile */
+            .hero-grid { grid-template-columns: 1fr; }
+            .hero-text-floating { margin-left: 0; margin-top: -50px; padding: 40px 30px; text-align: center; margin-right: 0; }
+            .hero-image-bg img { height: 400px; }
+            .hero-text-floating h1 { font-size: 2.5rem; }
+            
+            /* Footer Tablet */
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+        }
+
+        @media (max-width: 768px) {
+            /* --- NAVBAR MOBILE --- */
+            .logo img { height: 40px; }
+            .hamburger { display: block; }
+            .nav-links { position: fixed; top: 0; right: -100%; width: 100%; height: 100vh; background: white; flex-direction: column; justify-content: center; align-items: center; gap: 25px; box-shadow: -5px 0 20px rgba(0,0,0,0.1); transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1001; padding: 20px; }
+            .nav-links.active { right: 0; }
+            .nav-links li { width: 100%; text-align: center; }
+            .nav-links li a:not(.btn) { font-size: 1.2rem; display: block; width: 100%; padding: 10px 0; }
+            .nav-links li a:not(.btn)::after { display: none; }
+            .nav-links .btn-mobile { margin-top: 20px; margin-left: 0; width: 80%; background-color: var(--primary-color); color: white; border: none; padding: 15px 0; text-align: center; }
+            .nav-links .btn-mobile:hover { background-color: var(--primary-dark); }
+
+            /* --- HERO MOBILE FIX --- */
+            .about-hero-innovative { padding: 100px 0 50px; }
+            .hero-text-floating { margin-top: -30px; padding: 30px 20px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+            .hero-text-floating h1 { font-size: 2rem; }
+
+            /* --- TIMELINE MOBILE FIX (Rata Kiri Linear) --- */
+            .timeline-section-clean { padding: 60px 0; }
+            .timeline-clean::before { left: 20px; }
+            .timeline-row, .timeline-row:nth-child(even) { flex-direction: column; align-items: flex-start; margin-bottom: 40px; }
+            .timeline-content { width: calc(100% - 50px); margin-left: 50px !important; padding: 25px; }
+            .timeline-dot { left: 20px; top: 0; }
+            .timeline-content::after, .timeline-row:nth-child(odd) .timeline-content::after, .timeline-row:nth-child(even) .timeline-content::after { left: -10px !important; width: 10px !important; right: auto !important; top: 10px; }
+
+            /* --- FOOTER MOBILE FIX --- */
+            .footer-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
+            .footer-col h4::after { left: 50%; transform: translateX(-50%); }
+            .contact-info li { justify-content: center; }
+            .footer-bottom { flex-direction: column-reverse; gap: 20px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo"><img src="asset/NiKU.png" alt="Logo NiKU"></a>
+                <div class="hamburger" id="hamburger-btn"><i class="fas fa-bars"></i></div>
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html" class="active">Tentang Kami</a></li>
+                    <li><a href="services.html">Layanan</a></li>
+                    <li><a href="portfolio.html">Portofolio</a></li>
+                    <li><a href="blog.html">Wawasan</a></li>
+                    <li><a href="contact.html" class="btn btn-outline btn-mobile">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        const hamburger = document.getElementById('hamburger-btn');
+        const navMenu = document.getElementById('nav-menu');
+        const icon = hamburger.querySelector('i');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            if (navMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars'); icon.classList.add('fa-times'); icon.style.color = '#ff5a5f';
+            } else {
+                icon.classList.remove('fa-times'); icon.classList.add('fa-bars'); icon.style.color = '#333';
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                icon.classList.remove('fa-times'); icon.classList.add('fa-bars');
+            });
+        });
+    </script>
+
+    <section class="about-hero-innovative">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-image-bg">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&h=800&fit=crop" alt="Kolaborasi Tim NiKU" fetchpriority="high">
+                </div>
+                <div class="hero-text-floating">
+                    <span class="label-badge">Cerita Kami</span>
+                    <h1>Membangun Masa Depan Digital yang Lebih Cerah</h1>
+                    <p>NiKU Innovation lahir dari keyakinan bahwa teknologi canggih harus dapat diakses dan mudah digunakan oleh semua orang. Kami adalah jembatan antara visi bisnis Anda dan realitas digital.</p>
+                    <a href="#" class="btn btn-primary">Unduh Profil Perusahaan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline-section-clean">
+        <div class="container">
+            <div class="section-header">
+                <span class="label-badge">Perjalanan Kami</span>
+                <h2 class="section-title">Jejak Langkah Inovasi</h2>
+                <p class="section-subtitle">Dari awal yang sederhana hingga menjadi mitra transformasi digital tepercaya bagi ratusan klien.</p>
+            </div>
+
+            <div class="timeline-clean">
+                <div class="timeline-row">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year-badge">2019</span>
+                        <h3>Benih Inovasi Ditanam</h3>
+                        <p>Didirikan di sebuah garasi kecil oleh dua insinyur visioner. Fokus awal kami adalah membantu UMKM lokal memiliki kehadiran web yang profesional.</p>
+                    </div>
+                </div>
+                <div class="timeline-row">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year-badge">2021</span>
+                        <h3>Ekspansi & Adaptasi</h3>
+                        <p>Di tengah tantangan global, kami tumbuh pesat. Memperluas layanan ke pengembangan aplikasi seluler dan sistem cloud yang kompleks.</p>
+                    </div>
+                </div>
+                <div class="timeline-row">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="year-badge">2023</span>
+                        <h3>Peluncuran Produk Proprietary</h3>
+                        <p>Meluncurkan 'Hotely' (SaaS Perhotelan) dan 'LLM Lokal', menandai transisi kami dari sekadar agensi layanan menjadi perusahaan berbasis produk.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section-minimal">
+        <div class="container">
+            <div class="section-header">
+                <span class="label-badge">Kepemimpinan</span>
+                <h2 class="section-title">Dewan Direksi</h2>
+                <p class="section-subtitle">Para pemikir strategis yang mengarahkan visi NiKU ke depan.</p>
+            </div>
+
+            <div class="team-grid-minimal">
+                <div class="team-card-minimal">
+                    <div class="team-photo-wrapper">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&h=600&fit=crop" alt="Noer Prajitno" loading="lazy">
+                    </div>
+                    <div class="team-info-minimal">
+                        <span class="team-role">CEO / Founder</span>
+                        <h3>Noer Prajitno, ST, M.Sc</h3>
+                        <p>Pengalaman 15+ tahun dalam strategi bisnis teknologi. Visoner yang fokus pada dampak sosial jangka panjang dari setiap solusi digital.</p>
+                    </div>
+                </div>
+
+                <div class="team-card-minimal">
+                    <div class="team-photo-wrapper">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=600&fit=crop" alt="Daniel Ismanto" loading="lazy">
+                    </div>
+                    <div class="team-info-minimal">
+                        <span class="team-role">CTO / Co-Founder</span>
+                        <h3>Daniel Ismanto, ST</h3>
+                        <p>Arsitek utama teknologi NiKU. Pakar dalam skalabilitas sistem, keamanan siber, dan implementasi AI praktis.</p>
+                    </div>
+                </div>
+
+                 <div class="team-card-minimal">
+                    <div class="team-photo-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&h=600&fit=crop" alt="Sarah Kusuma" loading="lazy">
+                    </div>
+                    <div class="team-info-minimal">
+                        <span class="team-role">COO / Operasional</span>
+                        <h3>Sarah Kusuma, MBA</h3>
+                        <p>Memastikan keunggulan operasional dan kepuasan klien. Ahli dalam manajemen proyek tangkas dan efisiensi proses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="index.html" style="display:block; margin-bottom: 25px;">
+                        <img src="asset/NiKU.png" alt="Nore Inovasi" style="height: 40px; filter: brightness(0) invert(1);"> 
+                    </a>
+                    <p>Mitra transformasi digital terpercaya untuk bisnis Anda. Kami menggabungkan kreativitas dan teknologi untuk menciptakan solusi masa depan yang efektif dan efisien.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="portfolio.html">Portofolio</a></li>
+                        <li><a href="blog.html">Wawasan & Berita</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="contact.html">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Konsultan IT</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Aplikasi Mobile</a></li>
+                        <li><a href="services.html">Sistem Informasi</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kantor Kami</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jl. Tlogomas No. 1, Lowokwaru,<br>Kota Malang, Jawa Timur 65144</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@nore.co.id</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+62 812-3456-7890</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nore Innovation. Hak Cipta Dilindungi.</p>
+                <div class="footer-socials">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

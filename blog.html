@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Wawasan & Blog - NiKU Inovasi | Artikel Teknologi Terbaru</title>
+    <meta name="description" content="Temukan wawasan terbaru seputar teknologi, web development, transformasi digital, dan strategi bisnis di blog NiKU Inovasi.">
+    <meta name="keywords" content="Blog Teknologi, Artikel IT, Tips Web Development, Berita AI, NiKU Inovasi, Transformasi Digital">
+    <meta name="author" content="NiKU Inovasi Team">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.niku.co.id/blog.html">
+
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="https://www.niku.co.id/blog.html">
+    <meta property="og:title" content="Wawasan & Blog - NiKU Inovasi">
+    <meta property="og:description" content="Artikel pilihan seputar teknologi dan inovasi digital untuk pertumbuhan bisnis Anda.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wawasan & Blog - NiKU Inovasi">
+    <meta name="twitter:description" content="Update terbaru dunia teknologi dan strategi digital.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=630&fit=crop">
+
+    <link rel="icon" type="image/png" href="asset/NiKU.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="asset/NiKU.png" sizes="16x16">
+    <meta name="theme-color" content="#ff5a5f">
+    <link rel="apple-touch-icon" href="asset/NiKU.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com"> <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Wawasan NiKU Inovasi",
+      "url": "https://www.niku.co.id/blog.html",
+      "description": "Kumpulan artikel dan wawasan seputar teknologi dan bisnis digital.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "NiKU Inovasi",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.niku.co.id/asset/NiKU.png"
+        }
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Mengapa AI Adalah Kunci Transformasi Bisnis di Tahun 2026?",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+          "datePublished": "2026-01-14",
+          "author": {
+            "@type": "Person",
+            "name": "Admin"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        /* --- RESET & GLOBAL STYLES --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; color: #333; line-height: 1.6; background-color: #f8f9fa; overflow-x: hidden; }
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+
+        /* --- VARIABLES --- */
+        :root {
+            --primary-color: #ff5a5f;
+            --primary-dark: #e04e53;
+            --text-dark: #1f1f1f;
+            --text-light: #666;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --card-shadow: 0 5px 20px rgba(0,0,0,0.03);
+            --card-shadow-hover: 0 15px 30px rgba(255, 90, 95, 0.15);
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        /* --- BUTTONS --- */
+        .btn { display: inline-block; padding: 12px 30px; border-radius: 50px; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: 1px solid transparent; font-size: 0.9rem; }
+        .btn-primary { background-color: var(--primary-color); color: white; box-shadow: 0 4px 15px rgba(255, 90, 95, 0.3); }
+        .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); }
+        .btn-outline { background-color: transparent; border: 1px solid var(--primary-color); color: var(--primary-color); }
+        .btn-outline:hover { background-color: var(--primary-color); color: white; }
+
+        /* --- HEADER --- */
+        header { padding: 20px 0; background: var(--bg-white); position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary-color); }
+        .nav-links { display: flex; gap: 30px; }
+        .nav-links a { font-size: 0.9rem; font-weight: 500; color: var(--text-dark); position: relative; }
+        .nav-links a:hover, .nav-links a.active { color: var(--primary-color); }
+        .nav-links a.active::after { content: ''; position: absolute; width: 100%; height: 2px; bottom: -5px; left: 0; background-color: var(--primary-color); }
+        @media (max-width: 768px) { .nav-links { display: none; } }
+
+        /* --- PAGE STYLES --- */
+        .page-intro { padding: 80px 0 50px; text-align: center; background: var(--bg-white); }
+        .page-intro h4 { color: var(--primary-color); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+        .page-intro h1 { font-size: 2.8rem; color: var(--text-dark); margin-bottom: 20px; }
+        .page-intro p { font-size: 1.1rem; color: var(--text-light); max-width: 700px; margin: 0 auto; }
+
+        /* Featured Post */
+        .featured-section { padding-bottom: 60px; }
+        .featured-card { display: grid; grid-template-columns: 1.2fr 1fr; background: var(--bg-white); border-radius: 25px; overflow: hidden; box-shadow: var(--card-shadow); transition: 0.3s; }
+        .featured-card:hover { box-shadow: var(--card-shadow-hover); }
+        .featured-img-wrapper { position: relative; overflow: hidden; height: 100%; min-height: 400px; }
+        .featured-img-wrapper img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .featured-card:hover .featured-img-wrapper img { transform: scale(1.05); }
+        .featured-content { padding: 50px; display: flex; flex-direction: column; justify-content: center; }
+        .post-tag { display: inline-block; background: #fff0f0; color: var(--primary-color); padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin-bottom: 20px; width: fit-content; }
+        .featured-content h2 { font-size: 2rem; margin-bottom: 20px; line-height: 1.3; color: var(--text-dark); }
+        .featured-content p { color: var(--text-light); margin-bottom: 30px; font-size: 1rem; }
+        .post-meta { display: flex; align-items: center; gap: 20px; color: #999; font-size: 0.9rem; margin-bottom: 30px; }
+
+        /* Blog Grid */
+        .blog-grid-section { padding-bottom: 100px; }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 40px; }
+        .blog-card { background: var(--bg-white); border-radius: 20px; overflow: hidden; box-shadow: var(--card-shadow); transition: all 0.4s ease; display: flex; flex-direction: column; }
+        .blog-card:hover { transform: translateY(-10px); box-shadow: var(--card-shadow-hover); }
+        .blog-thumb { height: 240px; overflow: hidden; position: relative; }
+        .blog-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .blog-card:hover .blog-thumb img { transform: scale(1.1); }
+        .card-tag { position: absolute; top: 20px; left: 20px; background: rgba(255,255,255,0.9); color: var(--primary-color); padding: 5px 12px; border-radius: 15px; font-size: 0.75rem; font-weight: 700; backdrop-filter: blur(5px); }
+        .blog-body { padding: 30px; flex-grow: 1; display: flex; flex-direction: column; }
+        .blog-meta-small { font-size: 0.85rem; color: #aaa; margin-bottom: 15px; display: flex; justify-content: space-between; }
+        .blog-body h3 { font-size: 1.3rem; margin-bottom: 15px; color: var(--text-dark); line-height: 1.4; }
+        .blog-body p { font-size: 0.95rem; color: var(--text-light); margin-bottom: 25px; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        .read-more { margin-top: auto; font-weight: 600; color: var(--primary-color); display: flex; align-items: center; gap: 8px; transition: gap 0.3s; }
+        .read-more:hover { gap: 12px; }
+
+        /* Pagination Style */
+        .pagination { display: flex; justify-content: center; gap: 10px; margin-top: 60px; }
+        .page-link { width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: white; color: var(--text-dark); font-weight: 600; transition: 0.3s; box-shadow: 0 2px 10px rgba(0,0,0,0.05); cursor: pointer; border: none; font-family: inherit; font-size: 1rem; }
+        .page-link.active, .page-link:hover { background: var(--primary-color); color: white; }
+        .page-link:disabled { opacity: 0.5; cursor: not-allowed; background: #eee; color: #999; }
+
+        /* Newsletter & Footer */
+        .newsletter-box { background: linear-gradient(135deg, #222, #333); border-radius: 25px; padding: 60px; text-align: center; color: white; margin-bottom: 80px; }
+        .newsletter-form { display: flex; justify-content: center; gap: 15px; margin-top: 30px; max-width: 500px; margin-left: auto; margin-right: auto; }
+        .newsletter-input { flex: 1; padding: 15px 25px; border-radius: 50px; border: none; outline: none; }
+        
+        footer { background: #1a1a1a; color: #aaa; padding: 60px 0; text-align: center; }
+        .footer-logo { font-size: 2rem; font-weight: 700; color: white; margin-bottom: 20px; display: inline-block;}
+        .footer-socials { margin-top: 30px; }
+        .footer-socials a { margin: 0 15px; font-size: 1.3rem; color: white; transition: 0.3s; background: rgba(255,255,255,0.1); padding: 10px; border-radius: 50%; width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center;}
+        .footer-socials a:hover { background: var(--primary-color); }
+
+        @media (max-width: 968px) {
+            .featured-card { grid-template-columns: 1fr; }
+            .featured-img-wrapper { min-height: 250px; height: 250px; }
+            .newsletter-form { flex-direction: column; }
+            .newsletter-input { width: 100%; }
+        }
+        /* --- HEADER NAVBAR STYLES (DESKTOP FIXED) --- */
+    header { 
+        padding: 15px 0; 
+        background: var(--bg-white); 
+        position: sticky; 
+        top: 0; 
+        z-index: 1000; 
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+    }
+
+    nav { 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    .logo { 
+        font-size: 1.8rem; 
+        font-weight: 700; 
+        color: var(--primary-color); 
+        z-index: 1002;
+    }
+
+    /* Container Menu Desktop */
+    .nav-links { 
+        display: flex; 
+        gap: 30px; 
+        align-items: center; 
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Style Link Biasa (Kecuali Tombol) */
+    /* Kita gunakan :not(.btn) agar style ini TIDAK kena ke tombol */
+    .nav-links li a:not(.btn) { 
+        font-size: 0.95rem; 
+        font-weight: 500; 
+        color: var(--text-dark); 
+        transition: 0.3s; 
+        position: relative; 
+        text-decoration: none; 
+    }
+
+    /* Hover Effect hanya untuk Link Biasa */
+    .nav-links li a:not(.btn):hover, 
+    .nav-links li a:not(.btn).active { 
+        color: var(--primary-color); 
+    }
+
+    /* Garis Bawah Animasi (Hanya untuk Link Biasa) */
+    .nav-links li a:not(.btn)::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -5px;
+        left: 0;
+        background-color: var(--primary-color);
+        transition: 0.3s;
+    }
+
+    .nav-links li a:not(.btn):hover::after,
+    .nav-links li a:not(.btn).active::after {
+        width: 100%;
+    }
+
+    /* Style Khusus Tombol di Desktop agar Rapi */
+    .nav-links .btn {
+        margin-left: 10px; /* Beri jarak sedikit dari link terakhir */
+        padding: 10px 25px; /* Padding yang pas */
+        display: inline-block;
+    }
+
+    /* Tombol Hamburger (Mobile Only) */
+    .hamburger {
+        display: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: var(--text-dark);
+        z-index: 1002;
+    }
+    /* Logo Wrapper (Link) */
+    .logo { 
+        display: flex;
+        align-items: center;
+        z-index: 1002;
+    }
+
+    /* Ukuran Logo Gambar */
+    .logo img {
+        height: 68px; /* Atur tinggi agar pas dengan navbar */
+        width: auto;  /* Lebar menyesuaikan otomatis */
+        max-width: 150px; /* Batas maksimal lebar */
+    }
+
+    /* Penyesuaian Mobile (Opsional jika ingin lebih kecil di HP) */
+        
+    /* --- MOBILE RESPONSIVE STYLES --- */
+    @media (max-width: 768px) {
+         .logo img {
+            height: 45px; /* Sedikit lebih kecil di mobile */
+        }
+        .hamburger { display: block; }
+
+        .nav-links {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 75%; /* Lebar menu mobile */
+            height: 100vh;
+            background: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1001;
+            padding: 20px;
+        }
+
+        .nav-links.active { right: 0; }
+
+        /* Reset style desktop untuk mobile */
+        .nav-links li { width: 100%; text-align: center; }
+        
+        .nav-links li a:not(.btn) {
+            font-size: 1.2rem;
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+        }
+        
+        /* Hapus garis bawah di mobile agar lebih bersih */
+        .nav-links li a:not(.btn)::after { display: none; }
+
+        /* Style Tombol Khusus Mobile */
+        .nav-links .btn-mobile {
+            margin-top: 20px;
+            margin-left: 0; /* Reset margin desktop */
+            width: 80%;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 0;
+        }
+        
+        .nav-links .btn-mobile:hover {
+            background-color: var(--primary-dark);
+            color: white;
+            transform: translateY(-2px);
+        }
+    }
+    /* --- FOOTER STYLES (REFINED) --- */
+    footer {
+        background-color: #121212; /* Warna latar lebih gelap/premium */
+        color: #b0b0b0; /* Warna teks abu-abu lembut */
+        padding-top: 80px;
+        padding-bottom: 30px;
+        font-size: 0.95rem;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Grid Layout: Kolom 1 & 4 lebih lebar dari 2 & 3 */
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1.5fr; 
+        gap: 40px;
+        margin-bottom: 60px;
+        align-items: start;
+    }
+
+    /* Judul Kolom */
+    .footer-col h4 {
+        color: white;
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+        font-weight: 700;
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Garis Merah di Bawah Judul */
+    .footer-col h4::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        height: 3px;
+        width: 40px;
+        background-color: var(--primary-color);
+        border-radius: 2px;
+    }
+
+    /* Khusus Kolom Logo tidak perlu garis bawah jika pakai gambar */
+    .footer-col.brand-col h4::after {
+        display: none; 
+    }
+
+    .footer-col p {
+        line-height: 1.8;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+
+    /* Link List */
+    .footer-links {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-links li {
+        margin-bottom: 12px;
+    }
+
+    .footer-links a {
+        color: #b0b0b0;
+        text-decoration: none;
+        transition: 0.3s;
+        display: inline-block;
+    }
+
+    .footer-links a:hover {
+        color: var(--primary-color);
+        transform: translateX(5px);
+    }
+
+    /* Info Kontak dengan Ikon Merah */
+    .contact-info {
+        list-style: none;
+        padding: 0;
+    }
+
+    .contact-info li {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 20px;
+        color: #b0b0b0;
+        line-height: 1.6;
+    }
+    
+    .contact-info i {
+        color: var(--primary-color);
+        font-size: 1.1rem;
+        margin-top: 4px; /* Men sejajarkan ikon dengan baris pertama teks */
+        min-width: 20px; /* Agar teks rata lurus */
+    }
+
+    /* Footer Bottom (Copyright & Socials) */
+    .footer-bottom {
+        border-top: 1px solid #2a2a2a; /* Garis pemisah halus */
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer-socials {
+        display: flex;
+        gap: 12px;
+    }
+
+    .footer-socials a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: #2a2a2a; /* Latar ikon abu gelap */
+        color: white;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .footer-socials a:hover {
+        background: var(--primary-color);
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(255, 90, 95, 0.4);
+    }
+
+    /* Responsive Mobile */
+    @media (max-width: 968px) {
+        .footer-grid {
+            grid-template-columns: 1fr; /* Tumpuk 1 kolom di HP */
+            gap: 50px;
+        }
+        
+        .footer-bottom {
+            flex-direction: column-reverse; /* Copyright di bawah, sosmed di atas */
+            text-align: center;
+            gap: 25px;
+        }
+    }
+    
+        /* --- HEADER NAVBAR STYLES (DESKTOP FIXED) --- */
+    header { 
+        padding: 15px 0; 
+        background: var(--bg-white); 
+        position: sticky; 
+        top: 0; 
+        z-index: 1000; 
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+    }
+
+    nav { 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    .logo { 
+        font-size: 1.8rem; 
+        font-weight: 700; 
+        color: var(--primary-color); 
+        z-index: 1002;
+    }
+
+    /* Container Menu Desktop */
+    .nav-links { 
+        display: flex; 
+        gap: 30px; 
+        align-items: center; 
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Style Link Biasa (Kecuali Tombol) */
+    /* Kita gunakan :not(.btn) agar style ini TIDAK kena ke tombol */
+    .nav-links li a:not(.btn) { 
+        font-size: 0.95rem; 
+        font-weight: 500; 
+        color: var(--text-dark); 
+        transition: 0.3s; 
+        position: relative; 
+        text-decoration: none; 
+    }
+
+    /* Hover Effect hanya untuk Link Biasa */
+    .nav-links li a:not(.btn):hover, 
+    .nav-links li a:not(.btn).active { 
+        color: var(--primary-color); 
+    }
+
+    /* Garis Bawah Animasi (Hanya untuk Link Biasa) */
+    .nav-links li a:not(.btn)::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -5px;
+        left: 0;
+        background-color: var(--primary-color);
+        transition: 0.3s;
+    }
+
+    .nav-links li a:not(.btn):hover::after,
+    .nav-links li a:not(.btn).active::after {
+        width: 100%;
+    }
+
+    /* Style Khusus Tombol di Desktop agar Rapi */
+    .nav-links .btn {
+        margin-left: 10px; /* Beri jarak sedikit dari link terakhir */
+        padding: 10px 25px; /* Padding yang pas */
+        display: inline-block;
+    }
+
+    /* Tombol Hamburger (Mobile Only) */
+    .hamburger {
+        display: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: var(--text-dark);
+        z-index: 1002;
+    }
+    /* Logo Wrapper (Link) */
+    .logo { 
+        display: flex;
+        align-items: center;
+        z-index: 1002;
+    }
+
+    /* Ukuran Logo Gambar */
+    .logo img {
+        height: 68px; /* Atur tinggi agar pas dengan navbar */
+        width: auto;  /* Lebar menyesuaikan otomatis */
+        max-width: 150px; /* Batas maksimal lebar */
+    }
+
+    /* Penyesuaian Mobile (Opsional jika ingin lebih kecil di HP) */
+        
+    /* --- MOBILE RESPONSIVE STYLES --- */
+    @media (max-width: 768px) {
+         .logo img {
+            height: 45px; /* Sedikit lebih kecil di mobile */
+        }
+        .hamburger { display: block; }
+
+        .nav-links {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 75%; /* Lebar menu mobile */
+            height: 100vh;
+            background: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+            transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1001;
+            padding: 20px;
+        }
+
+        .nav-links.active { right: 0; }
+
+        /* Reset style desktop untuk mobile */
+        .nav-links li { width: 100%; text-align: center; }
+        
+        .nav-links li a:not(.btn) {
+            font-size: 1.2rem;
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+        }
+        
+        /* Hapus garis bawah di mobile agar lebih bersih */
+        .nav-links li a:not(.btn)::after { display: none; }
+
+        /* Style Tombol Khusus Mobile */
+        .nav-links .btn-mobile {
+            margin-top: 20px;
+            margin-left: 0; /* Reset margin desktop */
+            width: 80%;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 0;
+        }
+        
+        .nav-links .btn-mobile:hover {
+            background-color: var(--primary-dark);
+            color: white;
+            transform: translateY(-2px);
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo"><img src="asset/NiKU.png" alt="Logo NiKU"></a>
+                
+                <div class="hamburger" id="hamburger-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="blog.html">Wawasan</a></li>
+                    
+                    <li><a href="contact.html" class="btn btn-outline btn-mobile">Hubungi Kami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+        const hamburger = document.getElementById('hamburger-btn');
+        const navMenu = document.getElementById('nav-menu');
+        const icon = hamburger.querySelector('i');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            if (navMenu.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times'); 
+                icon.style.color = '#ff5a5f';   
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');  
+                icon.style.color = '#333';
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+    </script>
+    <section class="page-intro">
+        <div class="container">
+            <h4>Wawasan NiKU</h4>
+            <h1>Artikel & Berita Terbaru</h1>
+            <p>Dapatkan informasi terkini seputar teknologi, tren digital, dan tips bisnis untuk membantu perusahaan Anda berkembang.</p>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <div class="featured-card">
+                <div class="featured-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop" alt="AI Technology Feature" fetchpriority="high">
+                </div>
+                <div class="featured-content">
+                    <span class="post-tag">Teknologi</span>
+                    <h2>Mengapa AI Adalah Kunci Transformasi Bisnis di Tahun 2026?</h2>
+                    <div class="post-meta">
+                        <span><i class="far fa-calendar"></i> 14 Jan 2026</span>
+                        <span><i class="far fa-clock"></i> 5 Menit Baca</span>
+                        <span><i class="far fa-user"></i> Oleh Admin</span>
+                    </div>
+                    <p>Kecerdasan buatan bukan lagi sekadar tren futuristik, melainkan kebutuhan operasional. Pelajari bagaimana implementasi AI dapat menghemat biaya operasional hingga 40%.</p>
+                    <a href="blogdetail.html" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-grid-section">
+        <div class="container">
+            <div class="blog-grid" id="blog-container"></div>
+            <div class="pagination" id="pagination-container"></div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box">
+                <h2>Jangan Ketinggalan Update Terbaru</h2>
+                <p>Berlangganan newsletter kami untuk mendapatkan artikel teknologi pilihan langsung ke inbox Anda setiap minggu.</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Masukkan alamat email Anda...">
+                    <button type="submit" class="btn btn-primary">Berlangganan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                
+                <div class="footer-col brand-col">
+                    <a href="index.html" style="display:block; margin-bottom: 25px;">
+                        <img src="asset/niku.png" alt="Nore Inovasi" style="height: 40px; filter: brightness(0) invert(1);"> 
+                    </a>
+                    <p>Mitra transformasi digital terpercaya untuk bisnis Anda. Kami menggabungkan kreativitas dan teknologi untuk menciptakan solusi masa depan yang efektif dan efisien.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="portfolio.html">Portofolio</a></li>
+                        <li><a href="blog.html">Wawasan & Berita</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="contact.html">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Konsultan IT</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Aplikasi Mobile</a></li>
+                        <li><a href="services.html">Sistem Informasi</a></li>
+                        <li><a href="services.html">Digital Marketing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Kantor Kami</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jl. Tlogomas No. 1, Lowokwaru,<br>Kota Malang, Jawa Timur 65144</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@nore.co.id</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+62 812-3456-7890</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Nore Innovation. Hak Cipta Dilindungi.</p>
+                <div class="footer-socials">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 1. DATA DUMMY ARTIKEL DENGAN GAMBAR NYATA (Total 15 Artikel)
+        const blogPosts = [
+            // Halaman 1
+            { title: "5 Cara Mempercepat Loading Website", category: "Web Dev", date: "10 Jan 2026", time: "3 Menit", img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop", desc: "Kecepatan website mempengaruhi SEO dan konversi. Temukan teknik optimasi gambar dan caching yang wajib Anda terapkan." },
+            { title: "Native vs Hybrid: Mana yang Tepat?", category: "Mobile Apps", date: "08 Jan 2026", time: "4 Menit", img: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop", desc: "Bingung memilih antara Flutter, React Native, atau Swift? Kami ulas kelebihan dan kekurangan masing-masing pendekatan." },
+            { title: "Strategi CRM Kustom untuk Retensi", category: "Bisnis", date: "05 Jan 2026", time: "6 Menit", img: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop", desc: "Jangan biarkan pelanggan pergi. Pelajari cara menggunakan data untuk membangun loyalitas jangka panjang." },
+            { title: "Tren Keamanan Siber 2026", category: "Keamanan", date: "01 Jan 2026", time: "5 Menit", img: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop", desc: "Ancaman ransomware semakin canggih. Pastikan data perusahaan Anda aman dengan langkah-langkah preventif ini." },
+            { title: "Minimalisme & Dark Mode UI", category: "UI/UX", date: "28 Des 2025", time: "3 Menit", img: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=600&h=400&fit=crop", desc: "Eksplorasi gaya desain antarmuka yang sedang naik daun dan disukai pengguna tahun ini." },
+            { title: "Budaya Kerja Remote Efektif", category: "Karir", date: "20 Des 2025", time: "4 Menit", img: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600&h=400&fit=crop", desc: "Tips bagi manajer untuk menjaga produktivitas dan kebahagiaan tim yang bekerja dari jarak jauh." },
+            // Halaman 2
+            { title: "Mengenal Blockchain untuk Bisnis", category: "Teknologi", date: "15 Des 2025", time: "7 Menit", img: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop", desc: "Bukan hanya crypto, blockchain dapat merevolusi rantai pasok dan transparansi data perusahaan Anda." },
+            { title: "SEO di Era Pencarian Suara", category: "Marketing", date: "10 Des 2025", time: "4 Menit", img: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=600&h=400&fit=crop", desc: "Bagaimana mengoptimalkan konten Anda agar ditemukan oleh Siri, Alexa, dan Google Assistant." },
+            { title: "Pentingnya Micro-Interactions", category: "UI/UX", date: "05 Des 2025", time: "3 Menit", img: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop", desc: "Detail kecil dalam animasi yang membuat aplikasi Anda terasa lebih hidup dan responsif." },
+            { title: "Migrasi ke Cloud Server", category: "DevOps", date: "01 Des 2025", time: "6 Menit", img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop", desc: "Panduan lengkap memindahkan infrastruktur on-premise ke AWS atau Google Cloud tanpa downtime." },
+            { title: "Tips Manajemen Proyek Agile", category: "Manajemen", date: "25 Nov 2025", time: "5 Menit", img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop", desc: "Menerapkan metode Scrum dan Kanban untuk mempercepat delivery produk perangkat lunak." },
+            { title: "Masa Depan E-Commerce VR", category: "Bisnis", date: "20 Nov 2025", time: "4 Menit", img: "https://images.unsplash.com/photo-1629904853716-f0044460b90d?w=600&h=400&fit=crop", desc: "Integrasi Virtual Reality dalam pengalaman belanja online untuk meningkatkan engagement pembeli." },
+            // Halaman 3
+            { title: "Bahasa Pemrograman Terpopuler 2026", category: "Coding", date: "15 Nov 2025", time: "5 Menit", img: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&h=400&fit=crop", desc: "Review bahasa pemrograman yang paling banyak dicari oleh perusahaan teknologi tahun ini." },
+            { title: "Copywriting untuk Landing Page", category: "Marketing", date: "10 Nov 2025", time: "3 Menit", img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&h=400&fit=crop", desc: "Teknik menulis yang persuasif untuk mengubah pengunjung website menjadi pembeli." },
+            { title: "Memahami User Persona", category: "UI/UX", date: "05 Nov 2025", time: "4 Menit", img: "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&h=400&fit=crop", desc: "Langkah awal sebelum mendesain produk: mengenal siapa sebenarnya pengguna Anda." }
+        ];
+
+        // 2. KONFIGURASI PAGINASI
+        const itemsPerPage = 6; // Jumlah artikel per halaman
+        let currentPage = 1;
+
+        // 3. FUNGSI RENDER ARTIKEL
+        function renderPosts(page) {
+            const container = document.getElementById('blog-container');
+            container.innerHTML = ''; // Bersihkan isi sebelumnya
+
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const paginatedItems = blogPosts.slice(start, end);
+
+            if(paginatedItems.length === 0) {
+                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center;">Tidak ada artikel ditemukan.</p>';
+                return;
+            }
+
+            paginatedItems.forEach(post => {
+                const cardHTML = `
+                    <div class="blog-card">
+                        <div class="blog-thumb">
+                            <span class="card-tag">${post.category}</span>
+                            <img src="${post.img}" alt="${post.title}" loading="lazy">
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta-small">
+                                <span>${post.date}</span>
+                                <span>${post.time}</span>
+                            </div>
+                            <h3>${post.title}</h3>
+                            <p>${post.desc}</p>
+                            <a href="blogdetail.html" class="read-more">Baca Artikel <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                `;
+                container.innerHTML += cardHTML;
+            });
+        }
+
+        // 4. FUNGSI RENDER TOMBOL PAGINASI
+        function renderPagination(page) {
+            const container = document.getElementById('pagination-container');
+            container.innerHTML = ''; // Bersihkan tombol sebelumnya
+            
+            const totalPages = Math.ceil(blogPosts.length / itemsPerPage);
+
+            // Tombol Previous
+            const prevBtn = document.createElement('button');
+            prevBtn.className = 'page-link';
+            prevBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+            prevBtn.disabled = page === 1;
+            prevBtn.onclick = () => changePage(page - 1);
+            container.appendChild(prevBtn);
+
+            // Tombol Angka
+            for (let i = 1; i <= totalPages; i++) {
+                const btn = document.createElement('button');
+                btn.className = `page-link ${i === page ? 'active' : ''}`;
+                btn.innerText = i;
+                btn.onclick = () => changePage(i);
+                container.appendChild(btn);
+            }
+
+            // Tombol Next
+            const nextBtn = document.createElement('button');
+            nextBtn.className = 'page-link';
+            nextBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+            nextBtn.disabled = page === totalPages;
+            nextBtn.onclick = () => changePage(page + 1);
+            container.appendChild(nextBtn);
+        }
+
+        // 5. FUNGSI GANTI HALAMAN
+        function changePage(newPage) {
+            const totalPages = Math.ceil(blogPosts.length / itemsPerPage);
+            if (newPage < 1 || newPage > totalPages) return;
+
+            currentPage = newPage;
+            renderPosts(currentPage);
+            renderPagination(currentPage);
+            
+            // Scroll ke atas grid sedikit agar user tahu halaman berubah
+            document.querySelector('.blog-grid-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // 6. INISIALISASI
+        document.addEventListener('DOMContentLoaded', () => {
+            renderPosts(currentPage);
+            renderPagination(currentPage);
+        });
+
+    </script>
+
+</body>
+</html>"
